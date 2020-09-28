@@ -6,8 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="http://localhost/pemrogramanweb/proses.php" method="post">
-     
+        <form action="http://localhost/pemrogramanweb/pemrosesandata/proses.php" method="GET">  
+        Masukkan bilangan pertama : <input type="text" name="angka1" ><br>
+        Masukkan bilangan kedua : <input type="text" name="angka2"><br>
+        Pilih operasi : <select name="operasi"><br>
+                            <option value="tambah">+</option>
+                            <option value="kurang">-</option>
+                            <option value="bagi">/</option>
+                            <option value="kali">*</option>
+        <input type="submit" name="submit">
     </form>
 </body>
 </html>
